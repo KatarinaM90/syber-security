@@ -1,0 +1,736 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+/** prva sekcija **/
+
+.pre-header {
+    background-color: #111618;
+    height: 60px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.pre-header p {
+    display: inline;
+    
+}
+
+#prvi {
+    color: #ffffff;
+}
+
+#drugi {
+    color: #929495;
+}
+
+.pre-header .secondarymany {
+list-style: none;
+text-transform: uppercase;
+text-align: right;
+
+}
+
+.pre-header .secondarymany li {
+    display: inline-block;
+}
+
+.pre-header .secondarymany li a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #929495;
+}
+
+
+/** druga sekcija **/
+
+.header {
+    background-color: #ffffff;
+    height: 102px;
+    padding-top: 35px;
+}
+
+.header #logo {
+    height: 35px;
+}
+
+.header .mainmany {
+    text-align: right;
+}
+
+.header .mainmany li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 15px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.header .mainmany li a {
+    text-decoration: none;
+    color: #929495;
+}
+
+.header #button {
+    background-color: #4246f4;
+    border: 1px solid #4246f4;
+    color: #efecfd;
+    text-decoration: none;
+    transition: 0,2s;
+    padding: 10px;
+}
+
+.header #button:hover {
+    background-color: transparent;
+    border-color: #4246f4;
+    color: #4246f4; 
+}
+
+/** treca sekcija **/
+
+.syber-security {
+    background-image: url(images/syber.jpg);
+    height: 595px;
+    padding-top: 125px;
+    padding-bottom: 115px;
+    background-size: cover;
+    background-position-y: -5cm;
+}
+
+.syber-security h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-style: bold;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.syber-security p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+.syber-security a {
+    background-color: #4246f4;
+    border: 1px solid #4246f4;
+    color: #efecfd;
+    text-decoration: none;
+    transition: 0,2s;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.syber-security a:hover {
+    background-color: transparent;
+    color: #4246f4;
+}
+
+
+/** cetvrta sekcija **/
+
+.our-services {
+    padding-top: 110px;
+    height: 1000px;
+    background-color: #f9f9f9;
+}
+
+
+.our-services h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #343434;
+    text-align: center;
+}
+
+.our-services h3 {
+    text-transform: uppercase;
+    color: #531295;
+    text-align: center;
+    font-size: 18px;
+}
+
+.our-services p {
+    color: #979797;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.our-services a {
+    border: 1px solid #ffffff;
+    color: #efecfd;
+    text-decoration: none;
+    transition: 0,2s;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.ser1 {
+    background-color: #262829;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.16);
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.16);
+}
+
+.ser1 h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.ser1 p {
+    color: #939495;
+}
+
+.ser1:hover {
+    margin-top: -30px;
+    transition: 0.2s;
+    background-color: #531295;
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 15px 10px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0 0 15px 10px rgba(0,0,0,0.30);
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.30);
+}
+
+
+/** peta sekcija **/
+
+.experance-safety {
+    background-image: url(images/experance.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.experance-safety img{
+    position: relative;
+    bottom: -30px;
+}
+
+.experance-safety h3 {
+    color: #256ef9;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.experance-safety h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.experance-safety p {
+    color: #e9e4ec;
+    font-size: 20px;
+}
+
+
+.experance-safety .modal .modal-dialog {
+    max-width: 700px;
+}
+
+.experance-safety .modal .modal-dialog .modal-content .modal-header{
+    border-bottom: 0;
+}
+
+.experance-safety .modal .modal-dialog .modal-content{
+    background-color: transparent;
+    border: 0;
+}
+
+.experance-safety .modal .modal-dialog .modal-content .modal-header .close{
+    color: #ffffff;
+    font-size: 30px;
+    background-color: transparent;
+    border: 0;
+    float: right;
+}
+
+
+/** sesta sekcija **/
+
+
+.customers {
+    padding-top: 145px;
+    height: 685px;
+}
+
+
+.customers h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #343434;
+}
+
+
+.customers .cust {
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+}
+
+.customers .cust .inner {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+
+.customers .cust .inner .content {
+    text-transform: uppercase;
+    color: #f9f9f9;
+    position: absolute;
+    bottom: 20px;
+}
+
+.customers .cust .inner .content:before {
+    content:"";
+    width: 3px;
+    height: 55px;
+    background-color: #ffffff;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+}
+
+
+
+/** sedma sekcija **/
+
+.about {
+    background-image: url(images/aboutback.jpg);
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 115px;
+    padding-bottom: 120px;
+}
+
+.about h3 {
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 3px dotted #7b7182;
+}
+
+.about h3::before {
+    content: "";
+    width: 5px;
+    height: 13px;
+    background-color: #07a0ff;
+    position: absolute;
+    left: -10px;
+    bottom: 5px;
+}
+
+.about h2 {
+    text-transform: capitalize;
+}
+
+
+/** osma sekcija **/
+
+.school {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    text-align: center;
+}
+
+.school h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #343434;
+}
+
+.school h3 {
+    text-transform: uppercase;
+    color: #531295;
+    font-size: 18px;
+}
+
+.school p {
+    color: #979797;
+    padding-bottom: 20px;
+}
+
+.school .school-inner {
+    background-image: url(images/school.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 98% 100%, 0 100%, 0% 50%);
+    color: #ffffff;
+}
+
+.school .school-inner .school-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 50px;
+}
+
+
+.school .school-inner .school-overlay .countdown {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    padding: 10px;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.school .school-inner .school-overlay .conference-date span {
+    background-color: #315cf6;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.school .school-inner .school-overlay .conference-date p {
+    color: #ffffff;
+}
+
+
+.school #konferencija {
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+.school #ddos {
+    color: #ffffff;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.school a {
+    background-color: #4246f4;
+    border: 1px solid #4246f4;
+    color: #efecfd;
+    text-decoration: none;
+    transition: 0,2s;
+    padding: 10px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 85% 100%, 0 100%, 0% 60%, 0 0);
+}
+
+.school a:hover {
+    background-color: transparent;
+    border-color: #4246f4;
+}
+
+
+/** deveta sekcija **/
+
+.visits {
+    background-image: url(images/visits.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #4246f4; 
+    color: #ffffff;
+}
+
+.visits h2{
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+
+.visits .contacts {
+    text-align: left;
+}
+
+.visits .contacts h3 {
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 3px dotted #7b7182;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.visits .contacts h3:before {
+    content: "";
+    width: 5px;
+    height: 13px;
+    background-color: #07a0ff;
+    position: absolute;
+    left: -10px;
+    bottom: 5px;
+}
+
+.visits .contacts h2 {
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.visits .contacts h4 {
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.visits form {
+    text-transform: uppercase;
+    padding-top: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 50px;
+    padding: 50px;
+    text-align: left;
+    margin-bottom: 120px;
+}
+
+.visits form textarea, .visits form input, .visits form label {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.visits form .btn {
+    margin-top: 40px;
+    background-color: #4246f4;
+    border: 1px solid #4246f4;
+    color: #efecfd;
+    text-decoration: none;
+    transition: 0,2s;
+    padding: 10px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 85% 100%, 0 100%, 0% 60%, 0 0);
+}
+    
+.visits form .btn:hover {
+    background-color: transparent;
+    border-color: #4246f4;
+}
+
+.visits form textarea {
+    height: 80px;
+}
+
+.visits form input {
+    height: 40px;
+    text-align: center;
+}
+
+
+.visits form label {
+    font-size: 13px;
+}
+
+
+/** deseta sekcija **/
+
+.price {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    text-align: center;
+}
+
+.price h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #343434;
+}
+
+.price h3 {
+    text-transform: uppercase;
+    color: #531295;
+    font-size: 18px;
+}
+
+.price p {
+    color: #979797;
+    padding-bottom: 20px;
+}
+
+.price .offer {
+    background-color: #2a2c2c;
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 60pxS;
+    -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.16);
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.16);
+    transition: 0,5s;
+}
+
+.price .offer:hover {
+    background-color: #333ca0;
+    position: relative;
+    margin-top: -30px;
+    -webkit-box-shadow: 0 0 15px 10px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0 0 15px 10px rgba(0,0,0,0.30);
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.30);
+}
+
+
+.price .offer h3, p, li{
+    color: #ffffff;
+}
+
+.price .offer p {
+    border-bottom: 5px dotted gray;
+}
+
+#cena {
+    font-size: 60px;
+}
+
+.price .offer img{
+    padding-bottom: 25px;
+}
+
+.price .offer li {
+    border-bottom: 1px solid gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.price .offer a {
+    display: block;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #4246f4;
+    border: 1px solid #4246f4;
+    color: #efecfd;
+    text-decoration: none;
+    transition: 0,2s;
+    padding: 10px;
+    margin-top: 20px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 60%, 0 0);
+}
+    
+.price .offer a:hover {
+    background-color: transparent;
+    border-color: #4246f4;
+}
+
+
+/** jedanaesta sekcija **/
+
+.trail {
+    background-image: url(images/city.jpg);
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.trail {
+    text-align: center;
+}
+
+ .trail h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+ }
+
+ .trail p {
+    color: #ffffff;
+    padding-bottom: 45px;
+    text-transform: capitalize;
+ }
+
+ .trail a {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    color: #efecfd;
+    text-decoration: none;
+    transition: 0,2s;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 85% 100%, 0 100%, 0% 60%, 0 0);
+ }
+
+ .trail img {
+    padding-bottom: 25px;
+ }
+
+
+ /** dvanaesta sekcija **/
+
+  .footer1 {
+    padding-top: 120px;
+    padding-bottom: 95px;
+  }
+
+  .footer1 h3 {
+    text-transform: uppercase;
+    color: #595959;
+    position: relative;
+    border-bottom: 3px dotted #7b7182;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .footer1 h3:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #07a0ff;
+    position: absolute;
+    left: -30px;
+    top: +8px;
+}
+
+  .footer1 li {
+    text-transform: uppercase;
+    color: #595959;
+    position: relative;
+    margin-left: 15px;
+    list-style: none;
+  }
+
+  .footer1 li::before {
+    content: "";
+    background-image: url(images/homepage.jpg);
+    width: 13px;
+    height: 18px;
+    position: absolute;
+    left: -30px;
+  }
+
+
+
+
+  .footer1 .info li {
+    font-size: 13px;
+    color: #595959;
+    text-transform: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+   /** trinaesta sekcija **/
+
+   .footer {
+    text-transform: uppercase;
+    background-color: #111618;
+    padding-top: 35px;
+    padding-bottom: 35px;
+   }
+
+   .footer li {
+    display: inline;
+    margin-left: 25px;
+   }
+
+   .footer li a {
+    list-style: none;
+    text-decoration: none;
+    color: #b8baba;
+   }
+
+   .footer li, p {
+    color: #b8baba;
+   }
+
+
+   .footer li a:before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url(images/homepage.jpg);
+    width: 13px;
+    height: 18px;
+   }
